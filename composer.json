@@ -21,11 +21,11 @@
         "phpstan/phpstan-shim": "^0.9.2"
     },
     "autoload": {
-        "psr-4": { "Doctrine\\Common\\Collections\\": "lib/Doctrine/Common/Collections" }
+        "psr-4": { "Doctrine\\Common\\Collections\\": "lib/Doctrine/Common/Collections/" }
     },
     "autoload-dev": {
         "psr-4": {
-            "Doctrine\\Tests\\": "tests/Doctrine/Tests"
+            "Doctrine\\Tests\\": "tests/Doctrine/Tests/"
         }
     },
     "extra": {
